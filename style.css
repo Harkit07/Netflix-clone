@@ -1,0 +1,399 @@
+* {
+    margin: o;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.header {
+    height: 43.75rem;
+    width: 100%;
+    background-image: url(netflix_background.jpg);
+    background-size: cover;
+}
+
+.titlebar1 {
+    width: 100%;
+    height: 4.375rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titlelogo {
+    width: 21.9rem;
+    height: 2.55rem;
+    color: red;
+    background: transparent;
+    font-size: 2.8rem;
+    margin: 0px 0px 0px 1rem;
+    display: flex;
+    justify-content: end;
+}
+
+.titleitems {
+    width: 31.25rem;
+    height: 2.55rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: transparent;
+    padding-right: 18.75rem;
+}
+
+.select {
+    height: 2.2rem;
+    width: 6.25rem;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 0.4rem;
+}
+
+.select:hover {
+    border: 2px solid white;
+    border-radius: 0.4rem;
+    border-radius: 9%;
+}
+
+.lang {
+    margin: 1.25rem;
+    background: transparent;
+}
+
+.button1 {
+    color: white;
+    background-color: red;
+    height: 1.55rem;
+    width: 4.375rem;
+    border: 0px;
+    border-radius: 10%;
+}
+
+/* titlebar2 */
+.titlebar2 {
+    color: white;
+}
+
+#heading1 {
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 9.375rem;
+}
+
+#heading2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+#heading3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+#heading4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input1 {
+    height: 3.44rem;
+    width: 23.125rem;
+    background-color: transparent;
+    font-size: 1.3rem;
+    color: white;
+    border-radius: 4px;
+    border-color: white;
+    border-width: 0.2px;
+}
+
+.button2 {
+    height: 3.75rem;
+    width: 12.5rem;
+    border-radius: 4px;
+    color: white;
+    background-color: red;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    border: none;
+}
+
+.line1 {
+    width: 100%;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.774);
+}
+
+/* box1 */
+
+.box1 {
+    width: 100%;
+    height: 33.125rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1in1 {
+    height: 23.75rem;
+    width: 37.5rem;
+    color: white;
+}
+
+.in1h1 {
+    height: 4.375rem;
+    width: 36.9rem;
+    font-size: 3rem;
+    font-weight: 800;
+    padding-top: 7.5rem;
+}
+
+.in1h2 {
+    font-size: 2rem;
+}
+
+.box1image {
+    height: 23.75rem;
+    width: 36.9rem;
+    background-image: url(netflix_tv.png);
+    background-size: cover;
+}
+
+/* box2 */
+
+.box2 {
+    width: 100%;
+    height: 33.125rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2image {
+    height: 23.75rem;
+    width: 36.9rem;
+    background-image: url(box2.jpg);
+    background-size: cover;
+}
+
+.box2in1 {
+    height: 23.75rem;
+    width: 37.5rem;
+    color: white;
+}
+
+.in2h1 {
+    height: 4.375rem;
+    width: 36.9rem;
+    font-size: 3rem;
+    font-weight: 800;
+    padding-top: 4.375rem;
+}
+
+.in2h2 {
+    font-size: 2rem;
+    padding-top: 5rem;
+}
+
+/* box3 */
+
+.box3 {
+    width: 100%;
+    height: 33.125rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3in1 {
+    height: 23.75rem;
+    width: 37.5rem;
+    color: white;
+}
+
+.in3h1 {
+    height: 4.375rem;
+    width: 36.9rem;
+    font-size: 3rem;
+    font-weight: 800;
+    padding-top: 7.5rem;
+}
+
+.in3h2 {
+    font-size: 2rem;
+}
+
+.box3image {
+    height: 23.75rem;
+    width: 36.9rem;
+    background-image: url(box3.png);
+    background-size: cover;
+}
+
+/* box4 */
+
+.box4 {
+    width: 100%;
+    height: 33.125rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box4image {
+    height: 23.75rem;
+    width: 36.9rem;
+    background-image: url(box4.png);
+    background-size: cover;
+}
+
+.box4in1 {
+    height: 23.75rem;
+    width: 37.5rem;
+    color: white;
+}
+
+.in4h1 {
+    height: 70px;
+    width: 36.9rem;
+    font-size: 2.8rem;
+    font-weight: 800;
+    padding-top: 5rem;
+}
+
+.in4h2 {
+    font-size: 1.3rem;
+}
+
+/* box5 */
+.box5 {
+    height: 58.125rem;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+    color: white;
+}
+
+.allbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button5 {
+    height: 5.25rem;
+    width: 60%;
+    padding: 1.5rem;
+    background-color: rgba(43, 42, 42, 0.932);
+    border: none;
+    margin: 0.3rem;
+    font-size: 1.7rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h2 {
+    font-size: 3.4rem;
+}
+
+.box5in1 {
+    margin-top: 2.5rem;
+    font-size: 1.1rem;
+}
+
+.input2 {
+    height: 4rem;
+    width: 22rem;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: white;
+    border: 1px solid black;
+
+}
+
+.button3 {
+    height: 3.75rem;
+    width: 12.5rem;
+    border-radius: 4px;
+    color: white;
+    background-color: red;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    border: none;
+}
+
+/* box6 */
+
+.box6 {
+    height: 21.9rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffffb3;
+    background-color: black;
+    text-decoration: underline;
+}
+
+.in6 {
+    height: 15.75rem;
+    width: 80%;
+    color: white;
+}
+
+.foot-panel1 {
+    color: white;
+    height: 9.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    margin-top: 1.25rem;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel2 {
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+
+.select2 {
+    height: 2.2rem;
+    width: 6.25rem;
+    color: white;
+    background-color: transparent;
+}
+
+.select2:hover {
+    border: 3px solid white;
+    border-radius: 9%;
+}
+
+.foot-panel3 {
+    height: 2.2rem;
+    margin-left: 3%;
+    margin: 2%;
+}
