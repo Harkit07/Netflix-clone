@@ -6,6 +6,6 @@ for(btn of btns) {
         let about = this.parentNode;
         let div = about.nextElementSibling;
         div.classList.toggle("hide");
-        console.dir(div.classList);
+        this.classList.toggle("rotate");
     });
 }

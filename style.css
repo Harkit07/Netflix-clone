@@ -412,3 +412,7 @@ ul a {
 .hide {
     display: none;
 }
+
+.rotate {
+    transform: rotate(45deg);
+}
