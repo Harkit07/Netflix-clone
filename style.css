@@ -406,6 +406,7 @@ ul a {
     display: flex;
     text-align: left;
     padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .hide {
